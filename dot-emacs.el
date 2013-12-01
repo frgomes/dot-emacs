@@ -109,7 +109,7 @@
 	(setq jedi:complete-on-dot t)
 	(setq jedi:tooltip-method '(popup))
 	;(setq jedi:tooltip-method '(pos-tip))
-	(setq jedi:server-command '("python" "/home/rgomes/.emacs.d/elpa/jedi-20130714.1415/jediepcserver.py"))
+	(setq jedi:server-command '("python" "~/.emacs.d/elpa/jedi-20130714.1415/jediepcserver.py"))
 	(autoload 'jedi:setup "jedi" nil t)
         ;(global-set-key (kbd "C-x (") 'jedi-start-kbd-macro)
         ;(global-set-key (kbd "C-x )") 'jedi-end-kbd-macro)
