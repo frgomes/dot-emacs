@@ -25,7 +25,18 @@ For the impatient
 
     $ rm -r -f .emacs .emacs.d
 
-3. Download my .emacs file onto your home folder.
+3. Install Python libraries
+
+This should be done preferably inside a virtual environment.
+
+::
+
+    $ workon py276  #-- py276 is a virtualenv I'm using
+    $ pip install epc
+    $ pip install jedi
+    $ pip install elpy
+
+4. Download my .emacs file onto your home folder.
 
 ::
 
